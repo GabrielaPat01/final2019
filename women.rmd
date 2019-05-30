@@ -42,9 +42,10 @@ We look at the numbers from the barchart and discoverd that the only treatment t
 ```{r}
 trialtbl=xtabs(~infected+treatment,data=sex)
 ```
+
 ### Graphical Descriptive Results
 
-The barchart results show that the Women infected with aids and taking the drug treatment have the highest on the barchart results is not good wich is about 59%. The Women who are infected with aids taking the placebo treatment that has the lower results, which is not good wich is about 39%. While the Women not infected with aids taking the drug treatment is the third highest with about 48%, and then, Women fected with aids who are taking the placebo treatment is the second highest result with is about 50%.
+The barchart results show that the Women infected with aids and taking the drug treatment have the highest on the barchart results is not good which is about 59%. The Women who are infected with aids taking the placebo treatment that has the lower results, which is not good wich is about 40%. While the Women not infected with aids taking the drug treatment is the third highest with about 52%, and then, Women infected with aids who are taking the placebo treatment is the second highest result with is about 50%.
 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
@@ -52,6 +53,7 @@ The barchart results show that the Women infected with aids and taking the drug 
 ```{r}
 barchartGC(trialtbl,type = "percent")
 ```
+
 ### Numerical Descriptive Results
 
 This we see that the Women infected with aids and taking the drugs is the highest working with the numbers of 58.82. The Women that is infected with aids taking the placebo is the the lowest number of  41.18,the Women not infected with aids and taking the placebo is the sencond highest with 51.94, and Women not infected with drugs have the third highest number of 48.06.
@@ -63,6 +65,7 @@ This we see that the Women infected with aids and taking the drugs is the highes
 ```{r}
 colPerc(trialtbl)
 ```
+
 These columns show that the treatment for women who do have aids did work.  While the drug treatment on women without aids did not. The drug treatment on the women with aids was 3.69 and the placebo treatment on women with aids was 2.42.work. The drug treatment on women without aids was 96.31 and the placebo treatment on women without aids is 97.58.
 
  
@@ -78,7 +81,7 @@ These rows show that the the treatment for women who do have aids did not work. 
 ## Inferential Results
 
 
-The Observed Counts of the treatment in Infected with aids Women taking the drugs is 210 and the placebo is 147. The none Infected Women with durgs is 5484 and with the placebo is 5927. The Counts Expected by Null, infected Women with aids and taking the drugs is 172.74. The Infected Women taking the placebo is 184.26. The Counts Expected by Null that's not infected Women with aids and taking the drugs is 5521.26. The not infected Women with aids taking the placebo is 5889.74.  The Contributions to the chi-square statistic Women infected with aids and taking the drugs is 8.04 and the Infected with aids Women taking the placebo is  7.54. Then, the not infected with aids Women taking the drugs is 0.25 and the not infected with aids Women taking the placebo is 0.24. The Chi-Square Statistic = 15.6339. The Degrees of Freedom of the table = 1. The P-Value = 1e-04. Which means the p-values accepted the hypothesis is not null in these results.
+The observed counts show results that the women infected with aids taking the drug treatment are 210 and the ones taking the placebo treatment are 147. The women who are not infected with aids taking the drug treatment are 5484 and the ones taking the placebo tteatment are 5927. The counts expected by null show that the results for women who are infected with aids and taking the drug treatment and placebo treatment gave results with a slight difference. The results are  172.74 for the drug treatment and 184.26 for the placebo. Now for the women who are not infected with aids taking the drug treatment are 1030.31 and the ones taking the placebo are  1022.69. For the contributions to the chi-square statistic show that the women infected with aids are 8.04 and the ones taking the placebo treatment are 7.54. The women who are not infected with aids taking the drug treatment are 0.25 and the ones taking the placebo treatment are 0.24. The Degrees of Freedom of the table = 1. The P-Value = 1e-04. Which means the p-values accepted the hypothesis is not null in these results.
 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
@@ -99,15 +102,8 @@ The Fisher test is rejected because the p-value is < 6.596e-05 and we know the c
 
 # Discussion and Conclusion
 
-We conclude, that our hypothesis is null and that looking at all the charts: chi-square curve, fisher test, barchart, the columns and the rows, which tells us the evidence of Women that is infected with aids and taking the drugs is the highest and therefore, the treatment wasn't working for the Women. Also, the Women infected with aids and taking the placebo had the lowest results that lets us know that the treatment wasn't working. Also, the Women not infected and taking the drugs and not infected and taking the placebo was slightly diferent numbers that lets us know these two in the treatment didn't work either. None of these were good conclusions.
+We conclude, that our hypothesis is null and that looking at all the charts: chi-square curve, fisher test, barchart, the columns and the rows, which tells us the evidence of Women that is infected with aids and taking the drugs is the highest and therefore, the treatment wasn't working for the Women. Also, the Women infected with aids and taking the placebo had the lowest results that lets us know that the treatment wasn't working. The bar chart results showed that the women with aids taking the drug treatment were 59% and the women with aids taking the placebo treatment were 40%. Also, the Women not infected and taking the drugs and not infected and taking the placebo was slightly diferent numbers that lets us know these two in the treatment didn't work either. The women who are not infected with aids who were taking the drug and placebo treatment had similar results with 48% and 52%. None of these were good conclusions.
 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-
-We conclude, that our hypothesis is null and that looking at all the charts: chi-square curve, fisher test, barchart, the column and the row, which tells us the evidence of Women that is infected with aids and taking the drugs is the highest and therefore, the treatment wasn't working for the Women. Also, the Women infected with aids and taking the placebo had the lowest results this still was too high so, we know that the treatment wasn't working. Also, the Women not infected and taking the drugs and not infected and taking the placebo was slightly diferent numbers that lets us know these two in the treatment didn't work either. None of these were good conclusions.
-
-
-
-
-
 

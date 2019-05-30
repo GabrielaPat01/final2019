@@ -43,6 +43,7 @@ Looking at the results from barcharts, chi-squared curve test, and fisher test, 
 
 
 ## Descriptive Results
+
 We look at the numbers from the barchart and discoverd that the only treatment that worked was the Men infected with aids and taking the drugs. Then, the Men that used the treatment that is infected with aids and taking the placebo was the hightest. Also the Men that is not infected with aids and taking the drugs, then the Men not infected with aids and taking the placebo were very close results and they had the second and third hightest numbers.
 
 ```{r}
@@ -51,7 +52,7 @@ trialtbl=xtabs(~infected+treatment,data=sex)
 
 ### Graphical Descriptive Results
 
-The bar chart results show that the Men infected with aids taking the drug treatment have lower results than the Men who are infected with aids taking the placebo treatment. While the Men not infected with aids that are taking the drug treatment and the Men not infected with aids and taking the placebo treatment seem to have almost the same results except that the drug treatment is slightly higher. 
+The bar chart results show that the Men infected with aids taking the drug treatment have lower results than the Men who are infected with aids taking the placebo treatment. While the Men not infected with aids that are taking the drug treatment and the Men not infected with aids and taking the placebo treatment seem to have almost the same results except that the drug treatment is slightly higher. The drug treatment on men infected with aids gave a percentage of around 32% and the placebo treatment on men infected with aids have a percentage of 70%. On the men who are not infected with aids, the drug treatment gave a percentage of around 49% and the placebo treatment gave a percentage of around 50%.
 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
@@ -82,7 +83,7 @@ The row results show that only the drug treatment worked on the Men infected wit
 
 ## Inferential Results
 
-The Observed Counts of the treatment in Infected Men with aids taking the drugs is 213 and the placebo is 465. The none Infected Men with durgs is 4684 and with the placebo is 4613.The Counts Expected by Null with Infected Men with aids and taking the drugs is 4684. The none Infected Men with taking the placebo is 4613. The Counts Expected by Null that's Infected Men with aids and taking the drugs is 332.85. The Infected Men with aids taking the placebo is 345.15. The none Infected Men with drugs is 4564.15, and the none Infected Men taking the placebo is 4732.85. The Contributions to the chi-square statistic with the Infected Men with aids and taking the drugs is 43.15 and the Infected Men with aids taking the placebo is 41.52. Then, the non Infected Men taking the drugs is 3.15 and the none Infected Men taking the placebo is 3.03. The Chi-Square Statistic = 90.1943. The Degrees of Freedom of the table = 1. The P-Value = 0. Which means the p-values accepted the hypothesis is not null.
+The observed counts show results that the men infected with aids taking the drug treatment are 213 and the ones taking the placebo treatment are 465. The men who are not infected with aids taking the drug treatment are 4684 and the ones taking the placebo tteatment are 4613. The counts expected by null show that the results for men who are infected with aids and taking the drug treatment and placebo treatment have about the same results with a slight difference. The results are 332.85 for the drug treatment and 345.15 for the placebo. Now for the men who are not infected with aids taking the drug treatment are 4564.15 and the ones taking the placebo are 4732.85. For the contributions to the chi-square statistic show that the men infected with aids are 43.15 and the ones taking the placebo treatment are 41.62. The men who are not infected with aids taking the drug treatment are 3.15 and the ones taking the placebo treatment are 3.03. The Degrees of Freedom of the table = 1. The P-Value = 0. Which means the p-values accepted the hypothesis is not null.
 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
@@ -101,7 +102,7 @@ The Fisher test is rejected because the p-value is < 2.2e-16 and we know the cor
 
 
 # Discussion and Conclusion
-We conclude, that our hypothesis is null and that looking at all the charts: chi-square curve, fisher test, barchart, the column and the row, which tells us the evidence of Men that is infected with aids and taking the drugs is the lowest and therefore, the treatment was working for those men. However, the Men infected with aids and taking the placebo had the hightest results that lets us know that the treatment wasn't working. Also, the Men not infected and taking the drugs and not infected and taking the placebo was very close and very close on all the numbers and on the barchart that lets us know these two in the treatment didn't work either.
+We conclude, that our hypothesis is null and that looking at all the charts: chi-square curve, fisher test, barchart, the column and the row, which tells us the evidence of Men that is infected with aids and taking the drugs is the lowest and therefore, the treatment was working for those men. However, the Men infected with aids and taking the placebo had the hightest results that lets us know that the treatment wasn't working. The bar chart results showed that The men with aids taking the drug treatment were 31.42 and the men with aids taking the placebo treatment were 68.58. Also, the Men not infected and taking the drugs and not infected and taking the placebo was very close and very close on all the numbers and on the barchart that lets us know these two in the treatment didn't work either. The men who are not infected with aids who were taking the drug and placebo treatment had similar results with 50.38 and 49.62
 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->

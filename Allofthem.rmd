@@ -35,7 +35,7 @@ The results show that the Allofthem subjects that is infected with aids and is t
 
 ## Descriptive Results
 
-We are observing how the drug treatment and the placebo treatments are working on all the women, men, drug users, and lgbt guys. Also, we will be looking at whether the treatments are good or bad on all women, men, drug users, and lgbt guys. 
+We are observing how the drug treatment and the placebo treatments are working on all the women, men, drug users, and lgbt guys. Also, we will be looking at whether the treatments are good or bad on all women, men, drug users, and lgbt guys.  
 
 
 ```{r}
